@@ -41,3 +41,6 @@ jobs:
       - name: run container
         run: docker run -t -d -p 80 node:latest
      
+       # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: kubectl apply -f deployment.yaml
