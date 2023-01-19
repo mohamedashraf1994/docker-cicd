@@ -3,5 +3,4 @@ COPY ./node /home/node
 WORKDIR /home/node/node
 RUN npm install
 CMD npm run app
-EXPOSE 9999
-EXPOSE 9090 
+EXPOSE 9999 
